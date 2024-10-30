@@ -1,0 +1,48 @@
+body  {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #88888f;
+        color: hwb(0 0% 100%);
+}
+.photo-profil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 2px solid #333;
+}
+.texte-photo {
+    position: absolute;
+    top: 210px;
+    right: 75px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+.contenu {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+.section {
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+h1 {
+    font-size: 28px;
+    color: hwb(0 24% 76%);
+}
+h2 {
+    font-size: 22px;
+    color: hwb(0 16% 84%);
+}
+a:hover {
+    text-decoration: underline;
+}
