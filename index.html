@@ -1,57 +1,125 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <img src="https://media.istockphoto.com/id/1091291084/fr/vectoriel/photo-de-profil-neutre.jpg?s=1024x1024&w=is&k=20&c=UqfQSyKLAL4tzkehfonkqc9Zi7QuRBVkq-yBQ3kXfVo=" class="photo-profil">
-        <p class="texte-photo">Test HTML</p>
-        <title>Mon CV</title>
-    </head>
-    <body>
-        <header>
-            <h1>Mon CV</h1>
-        </header>
-        <section id="about">
-            <h1>A propos de moi</h1>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon Site Web</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Bienvenue sur mon site !</h1>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#about" class="tab active">À propos de moi</a></li>
+
+                <li><a href="#skills" class="tab">Compétences</a></li>
+
+                <li><a href="#experience" class="tab">Expérience</a></li>
+
+                <li><a href="#journey" class="tab">Mon parcours</a></li>
+
+                <li><a href="#contact" class="tab">Me contacter</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+        <section id="about" class="tab-content active">
+
+            <h2>À propos de moi</h2>
+            <img src="https://media.istockphoto.com/id/1091291084/fr/vectoriel/photo-de-profil-neutre.jpg?s=1024x1024&w=is&k=20&c=UqfQSyKLAL4tzkehfonkqc9Zi7QuRBVkq-yBQ3kXfVo=" class="photo-profil">
+
             <p>Je suis un étudiant dans une ecole privé a Lyon</p>
+            <p>jhabite a lyon</p>
+            <p>je cherche du travail</p>
+
         </section>
 
-        <section id="skills">
+
+
+        <section id="skills" class="tab-content">
+
             <h2>Compétences</h2>
-            <u1>
+
+            <ul>
+
                 <li>HTML</li>
+
                 <li>CSS</li>
-                <li>Javascript (a venir)</li>
+
                 <li>Résolution des problèmes</li>
-                <li>Travaille indépendant</li>
-            </u1>
+
+            </ul>
+
         </section>
 
-        <section id="Expérience">
+
+
+        <section id="experience" class="tab-content">
+
             <h2>Expérience</h2>
-            <ul>
-                <li>Développeur Web - A Lyon (2024)</li>
-                          <li>Création de sites Web HTML</li>
-                          <li>Création d'applicationb</li>
-            </ul>
+
+            <p>Développeur Web.</p>
+
+
         </section>
 
-        <section id="éducation">
-            <h3>Mon Parcours</h3>
-            <ul>
-                <li>Bac général</li>
-                <li>Liscence en informatique</li>
-                <li>Apprentissage sur <a href="https://openclassrooms.com/fr/">Openclassrooms</a></li>
-            </ul>
+
+
+        <section id="journey" class="tab-content">
+
+            <h2>Mon parcours</h2>
+
+            <p>Bac général.</p>
+            <p>Apprentissage sur <a href="https://openclassrooms.com/fr/">Openclassrooms</a></p>
+
+
         </section>
 
-        <section id="Contacts">
-            <h4>Me Contacter</h4>
-            <p>Pour toutes demande me contacter avec l'adresse mail suivante : <a href="mailto:testhtml37@gmail.com">testhtml37@gmail.com</a></p>
+
+
+        <section id="contact" class="tab-content">
+
+            <h2>Me contacter</h2>
+
+            <p>Pour me contacter, veuillez envoyer un e-mail à <a href="testhtml37@gmail.com">testhtml37@gmail.com</a>.</p>
+
         </section>
-        <footer>
-            <p>Copyright © 2024 Test</p>
-        </footer>
-    </body>
+
+    </main>
+
+
+
+    <footer>
+
+        <p>&copy; 2024 Mon Site Web</p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>

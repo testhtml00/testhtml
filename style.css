@@ -1,48 +1,217 @@
 body  {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #88888f;
-        color: hwb(0 0% 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(240, 69%, 46%);
+    color: hwb(0 0% 100%);
 }
 .photo-profil {
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    border: 2px solid #333;
+width: 200px;
+height: 200px;
+border-radius: 100px;
+position: absolute;
+top: 20px;
+right: 20px;
+border: 2px solid #333;
 }
 .texte-photo {
-    position: absolute;
-    top: 210px;
-    right: 75px;
-    font-size: 16px;
-    color: #000000;
-    text-align: center;
-    font-weight: bold;
+position: absolute;
+top: 210px;
+right: 75px;
+font-size: 16px;
+color: #000000;
+text-align: center;
+font-weight: bold;
 }
 .contenu {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
+max-width: 800px;
+margin: auto;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 8px;
 }
 .section {
-    margin: 20px 0;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+margin: 20px 0;
+padding: 10px;
+border-bottom: 1px solid #ccc;
 }
 h1 {
-    font-size: 28px;
-    color: hwb(0 24% 76%);
+font-size: 28px;
+color: hwb(0 24% 76%);
 }
 h2 {
-    font-size: 22px;
-    color: hwb(0 16% 84%);
+font-size: 22px;
+color: hwb(0 16% 84%);
 }
 a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
+body {
+
+font-family: Arial, sans-serif;
+
+margin: 0;
+
+padding: 0;
+
+background-color: #f4f4f9;
+
+}
+
+
+
+/* Style du header */
+
+header {
+
+background-color: #333;
+
+color: hsl(0, 0%, 100%);
+
+padding: 1em;
+
+text-align: center;
+
+}
+
+
+
+header h1 {
+
+margin: 0;
+
+}
+
+
+
+nav ul {
+
+list-style-type: none;
+
+padding: 0;
+
+}
+
+
+
+nav ul li {
+
+display: inline;
+
+margin-right: 15px;
+
+}
+
+
+
+nav ul li a {
+
+color: #fff;
+
+text-decoration: none;
+
+}
+
+
+
+/* Style des sections */
+
+section {
+
+padding: 20px;
+
+margin: 20px;
+
+background-color: #fff;
+
+border-radius: 8px;
+
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+section h2 {
+
+color: #333;
+
+}
+
+footer {
+
+    text-align: center;
+
+    padding: 1em;
+
+    background-color: #333;
+
+    color: #fff;
+
+    position: relative;
+
+    bottom: 0;
+
+    width: 100%;
+
+}
+nav ul {
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+
+
+nav ul li {
+
+    display: inline;
+
+    margin-right: 15px;
+
+}
+
+
+
+nav ul li a {
+
+    padding: 10px 15px;
+
+    background-color: #333;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+}
+
+
+
+nav ul li a.active {
+
+    background-color: #555; /* Couleur pour l'onglet actif */
+
+}
+
+
+
+/* Cacher les sections par défaut */
+
+.tab-content {
+
+    display: none;
+
+}
+
+
+
+.tab-content.active {
+
+    display: block; /* Afficher la section active */
+
+}
+
